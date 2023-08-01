@@ -1,0 +1,7 @@
+FPL-related
+Possible ideas:
+- utilize point prediction to pick a player/substitution for each gameweek (pull data from a point prediction system)
+- automate substituting players before the gameweek's deadline
+- automate choosing a captain for each gameweek
+- tracking players' expected and actual points
+- putting players into watchlist
