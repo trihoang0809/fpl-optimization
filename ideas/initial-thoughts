@@ -5,3 +5,21 @@ Possible ideas:
 - automate choosing a captain for each gameweek
 - tracking players' expected and actual points
 - putting players into watchlist
+
+
+
+-->
+functions to call from terminal:
+- substitute("Gabriel Jesus", "Erling Haaland") 
+- transfer("Gabriel Jesus", "Erling Haaland") // --> "transfer success/not enough money/no more free transfers, wanna continue (-4)?"
+- suggestions("17", 5) --> 5 players to watch for for gameweek 17
+--> a watchlist array to append/remove players I'm keeping an eye on
+- top_forms(5) --> 5 players currently at the highest form
+- captain("Mohamed Salah", "17") // --> set Salah as captain for GW17
+- deadline("17") --> deadline to change team on GW17
+(maybe automate substitution before the deadline)
+
+
+Possible add-ons: injured list; players' form (average of last 5 GWs)
+
+--> Tasks: see how to communicate with/use FPL APIs and websites with FPL data/point prediction system
