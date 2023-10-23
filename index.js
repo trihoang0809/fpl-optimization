@@ -12,6 +12,15 @@ async function getTopPerformers() {
   }
 }
 
-// ... Other API calls and operations ...
+// Fetch the current gameweek information
+async function getCurrentGameweek() {
+  try {
+    const response = await axios.get(`${FPL_API_URL}/events`);
+    return response.data.filter(gw => gw.is_current)[0];
+  } catch (error) {
+    console.error("Error fetching current gameweek:", error);
+  }
+}
 
-module.exports = { getTopPerformers };
+module.exports = { getTopPerformers, getCurrentGameweek };
+
