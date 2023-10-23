@@ -1,0 +1,12 @@
+# Node modules and logs
+node_modules/
+npm-debug.log
+
+# Python cache and environment
+__pycache__/
+*.pyc
+venv/
+
+# IDEs and editors
+.vscode/
+*.idea/
