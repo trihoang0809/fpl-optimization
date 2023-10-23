@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "FPL API Collection",
+    "description": "API requests for FPL data"
+  },
+  "item": [
+    {
+      "name": "Get Player Details",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{base_url}}/player/{{player_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["player", "{{player_id}}"]
+        }
+      }
+    }
+    // ... other API endpoints ...
+  ]
+}
