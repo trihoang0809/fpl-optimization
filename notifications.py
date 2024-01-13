@@ -4,6 +4,7 @@ import os
 
 FPL_API_URL = "https://api.fpl.com/data"
 
+
 def fetch_current_gameweek():
     response = requests.get(f"{FPL_API_URL}/events")
     for event in response.json():
