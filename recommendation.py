@@ -2,6 +2,7 @@ import requests
 
 FPL_API_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 
+
 def fetch_players_data():
     response = requests.get(FPL_API_URL)
     data = response.json()
