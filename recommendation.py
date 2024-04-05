@@ -9,7 +9,6 @@ def fetch_players_data():
     return data['elements']
 
 def recommend_players_based_on_form(players_data):
-    # A simple recommendation logic based on players' form and points
     top_players = sorted(players_data, key=lambda x: (float(x['form']), x['total_points']), reverse=True)[:10]
     return top_players
 
