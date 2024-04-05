@@ -5,4 +5,6 @@ My personal project that aims to help me have a successful Fantasy Premier Leagu
 • Implemented the FPL APIs to enable real-time insights on top-performing players, teams, and transfer trends
 • Built a notification system for timely lineup adjustments each week
 
-I achieved a top 3% FPL global ranking last season. This season, I am currently ranked in the top 0.4%. Hopefully I can keep it up!
+I achieved a top 3% FPL global ranking last season. 
+
+Currently, I'm ranked ~6,000th overall and 10th in Vietnam 🤞🤩.
